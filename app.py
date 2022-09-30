@@ -5,7 +5,7 @@ import requests
 import time
 from streamlit_lottie import st_lottie
 
-st.set_page_config(page_title='Vehicle Price Predictor', page_icon='api.png', layout='wide')
+st.set_page_config(page_title='TVS CREDIT Vehicle Valuation', page_icon='api.png', layout='wide')
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -41,7 +41,7 @@ with st.container():
     # ------ HEADER SECTION-------
     left_column, right_column = st.columns(2)
     with left_column:
-        st.title('Effortless Price Predictions by AI:speech_balloon:')
+        st.title('TVS CREDIT - Effortless Price Predictions by AI:speech_balloon:')
         st.subheader('As per the trends in market :chart_with_upwards_trend:')
         st.write('''A few years ago, the ratio of new cars to used cars 
         was 1:1.2 which is now at 1:2.2. The used car market in India 
